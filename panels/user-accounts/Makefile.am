@@ -31,6 +31,10 @@ libuser_accounts_la_SOURCES =		\
 	um-account-type.c 		\
 	um-account-dialog.h		\
 	um-account-dialog.c		\
+	um-arrow-frame.h		\
+	um-arrow-frame.c		\      
+	um-carousel.h			\
+	um-carousel.c			\
 	um-password-dialog.h		\
 	um-password-dialog.c		\
 	pw-utils.h			\

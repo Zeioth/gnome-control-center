@@ -68,8 +68,6 @@ um_user_image_finalize (GObject *object)
 {
         UmUserImage *image = UM_USER_IMAGE (object);
 
-        g_clear_object (&image->priv->user);
-
         G_OBJECT_CLASS (um_user_image_parent_class)->finalize (object);
 }
 
